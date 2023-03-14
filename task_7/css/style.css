@@ -218,7 +218,6 @@ nav{
     font-family: "Dosis", sans-serif;
 	font-size: 18px;
 	color: black;
-    font-weight: 300;
 	margin-bottom: 8px;
 }
 
@@ -227,7 +226,6 @@ nav{
 	margin-bottom: 16px;
 	font-size: 16px;
     line-height: 1.8;
-    font-weight: 300;
 }
 
 .descr_link {
