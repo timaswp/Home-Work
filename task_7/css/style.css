@@ -53,7 +53,6 @@ a{
 ul {
     list-style: none;
     display: flex;
-    /* justify-content: space-between; */
 }
 
 ul > li > a {
@@ -87,7 +86,7 @@ nav{
     font-family: 'Dosis', sans-serif;
     font-size: 70px;
     text-align: center;
-    font-weight: 100; /* why here was 300?*/
+    font-weight: 100;
 }
 
 .button{
@@ -132,9 +131,6 @@ nav{
     background: #f7ca44;
     padding: 50px;
     float: left;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 
 .info{
