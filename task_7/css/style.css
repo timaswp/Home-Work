@@ -56,10 +56,10 @@ ul {
 }
 
 ul > li > a {
-    padding: 30px 20px;
+    padding: 20px 0;
+    margin: 0 20px;
     font-size: 14px;
     position: relative;
-    align-items: center;
 }
 
 nav{
@@ -72,9 +72,25 @@ nav{
     height: 2px;
     background-color: #fff;
     position: absolute;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+#other::after {
+    content: "";
+    height: 2px;
+    background-color: #f7ca44;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    width: 0;
+    transition: 0.5s;
+}
+
+#other:hover::after{
+    width: 100%;
 }
 
 .video{
@@ -94,6 +110,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .play{
@@ -114,6 +131,18 @@ nav{
 .text{
     color: #f7ca44;
     margin-left: 20px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.button:hover .play i{ 
+    color: white;
+}
+
+.button:hover .text{
+    color: white;
 }
 
 .about{
@@ -155,6 +184,12 @@ nav{
 	line-height: 1.5;
 	box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
     margin-top: 40px;
+    transition: 0.5s;
+}
+
+.left_btn:hover{
+    color: white;
+    background-color: black;
 }
 
 .right {
@@ -194,6 +229,13 @@ nav{
 	padding: 8px 16px;
     position: absolute;
     bottom: 0;
+    transition: 0.5s;
+}
+
+.right_btn:hover{
+    color: white;
+    background-color: black;
+    border-color: black;
 }
 
 .additional{
