@@ -5,11 +5,13 @@ body{
 
 p{
     color: white;
-    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .main {
-    width: 100%;
+    width: 1000px;
     min-height: 100vh;
     background-color: rgb(204, 204, 221);
     padding-top: 5px;
@@ -17,7 +19,7 @@ p{
 }
 
 .t_upper {
-    width: 98.5vw;
+    width: 98%;
     height: 80px;
     background-color: blue;
     margin: 0 10px 10px 10px;
@@ -29,13 +31,13 @@ p{
 }
 
 .content{
-    width: 98.5vw;
+    width: 98.5%;
     height: 435px;
     margin: 10px;
 }
 
 .t_down{
-    width: 98.5vw;
+    width: 98%;
     height: 80px;
     background-color: blue;
     margin: 10px 10px 0 10px;
@@ -55,7 +57,7 @@ p{
 }
 
 .t_left{
-    width: 300px;
+    width: 30%;
     height: 100%;
     background-color: rgb(69, 186, 194);
     margin-right: 10px;
@@ -63,7 +65,7 @@ p{
 }
 
 .t_center{
-    width: 725.5px;
+    width: 37.5%;
     height: 100%;
     background-color: grey;
     float: left;
@@ -71,7 +73,7 @@ p{
 }
 
 .t_right{
-    width: 300px;
+    width: 30%;
     height: 100%;
     background-color: rgb(69, 186, 194);
     float: left;
@@ -81,17 +83,18 @@ p{
 /*теперь перейдем к media query*/
 
 
-@media screen and (max-width: 1365px) {
-    .t_left {width: 32%; margin-right: 5px;}
-    .t_center {width: 32%; margin-right: 5px;}
+@media screen and (max-width: 768px) {
+    .t_left {width: 32%;}
+    .t_center {width: 32%;}
     .t_right {width: 32%; margin-right: 5px;}
+    .content {display: flex; justify-content: space-between;}
 }
 
-@media screen and (max-width: 500px) {
-    .t_left {width: 100%; height: 80px; margin-bottom: 10px;}
-    .t_center {width: 100%; height: 80px; margin-bottom: 10px;}
-    .t_right {width: 100%; height: 80px;}
-    .content {height: 260px;}
+@media screen and (max-width: 576px) {
+    .t_left {width: 99.5%; height: 160px; margin: 0 5px 10px 0;}
+    .t_center {width: 99.5%; height: 150px; margin: 0 5px 10px 0;}
+    .t_right {width: 99.5%; height: 150px; margin: 0 5px 10px 0;}
+    .content {height: 480px; display: block;}
 }
 
 
