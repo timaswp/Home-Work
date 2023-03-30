@@ -84,16 +84,20 @@ p{
 
 
 @media screen and (max-width: 768px) {
+    .main {width: 768px;}
+    .t_upper {width: 97%;}
     .t_left {width: 32%;}
     .t_center {width: 32%;}
-    .t_right {width: 32%; margin-right: 5px;}
+    .t_right {width: 32%; margin-right: 10px;}
     .content {display: flex; justify-content: space-between;}
+    .t_down {width: 97%;}
 }
 
 @media screen and (max-width: 576px) {
-    .t_left {width: 99.5%; height: 160px; margin: 0 5px 10px 0;}
-    .t_center {width: 99.5%; height: 150px; margin: 0 5px 10px 0;}
-    .t_right {width: 99.5%; height: 150px; margin: 0 5px 10px 0;}
+    .main {width: 576px;}
+    .t_left {width: 98.5%; height: 160px; margin-bottom: 10px}
+    .t_center {width: 98.5%; height: 150px; margin-bottom: 10px}
+    .t_right {width: 98.5%; height: 150px; margin-bottom: 10px}
     .content {height: 480px; display: block;}
 }
 
