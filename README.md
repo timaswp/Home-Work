@@ -8,3 +8,4 @@
 [Task 8 (XeOne)](https://timaswp.github.io/IATC/task_8/) <br/>
 [Task 9 (Media Query)](https://timaswp.github.io/IATC/task_9/) <br/>
 [Task 10 (Snow Animation)](https://timaswp.github.io/IATC/task_10/) <br/>
+[Task 11 (Name in Smoke)](https://timaswp.github.io/IATC/task_11/) <br/>
