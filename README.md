@@ -7,3 +7,4 @@
 [Task 7 (GiveHope)](https://timaswp.github.io/IATC/task_7/) <br/>
 [Task 8 (XeOne)](https://timaswp.github.io/IATC/task_8/) <br/>
 [Task 9 (Media Query)](https://timaswp.github.io/IATC/task_9/) <br/>
+[Task 10 (Snow Animation)](https://timaswp.github.io/IATC/task_10/) <br/>
